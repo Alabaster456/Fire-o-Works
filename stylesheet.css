@@ -1,0 +1,114 @@
+#color {
+  background-color: black;
+  position: absolute;
+}
+#help {
+  position: absolute;
+  margin-left: 10px; 
+  margin-top: 560px;
+  height: 50px;
+  width: 50px;
+}
+#firstfire {
+  position:  absolute;
+  display:none;
+  z-index: 1;
+}
+#secfire {
+  position: absolute;
+  display:none;
+  z-index: 1;
+  margin-left: 300px;
+  margin-top: 400px;
+}
+#thirdfire {
+  position:absolute;
+  display:none;
+  z-index: 1;
+  margin-left: 450px;
+  margin-top: 150px;
+}
+#fourfire {
+  position:absolute;
+  display:none;
+  z-index: 1;
+  margin-left: 450px;
+  margin-top: 20px;
+}
+#fivefire {
+position:absolute;
+  display:none;
+  z-index: 1;
+  margin-left: 250px;
+  margin-top: 20px;
+}
+#sixfire {
+  position:absolute;
+  display:none;
+  z-index: 1;
+  margin-left: 250px;
+  margin-top: 220px;
+}
+#sevenfire {
+    position:absolute;
+  display:none;
+  z-index: 1;
+  margin-left: 250px;
+  margin-top: 30px;
+}
+#press {
+position:absolute;
+ margin-top: 500px;
+  margin-left: 450px;
+  height: 80px;
+  width: 80px;
+}
+#rocket1 {
+  height: 50px;
+  width: 50px;
+position: absolute;
+  margin-top:520px;
+  margin-left: 960px;
+}
+#rocket2 {
+  height: 50px;
+  width: 50px;
+position: absolute;
+  margin-top:520px;
+  margin-left: 930px;
+}
+#rocket3 {
+  height: 50px;
+  width: 50px;
+position: absolute;
+  margin-top:520px;
+  margin-left: 900px;
+}
+#rocket4 {
+  height: 50px;
+  width: 50px;
+position: absolute;
+  margin-top:520px;
+  margin-left: 870px;
+}
+#rocket5 {
+  height: 50px;
+  width: 50px;
+position: absolute;
+  margin-top:520px;
+  margin-left: 840px;
+}
+#rocket6 {
+  height: 50px;
+  width: 50px;
+position: absolute;
+  margin-top:520px;
+  margin-left: 810px;
+}
+#rocket7 {
+  height: 50px;
+  width: 50px;
+position: absolute;
+  margin-top:520px;
+  margin-left: 780px;
+}
