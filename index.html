@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+
+    <title>Fire-o-Works</title>
+
+  </head>
+
+        <body id="color">
+ <div id="howto"> </div>
+          <script>
+            var newfire = 0;
+function fireworks() {
+newfire++;
+  if(newfire === 1) {
+    
+  $('#firstfire').fadeIn('slow');
+  $('#firstfire').delay(1000).fadeOut('slow');
+    $('#rocket1').fadeOut('slow');
+  }
+  if (newfire === 2) {
+  $('#secfire').fadeIn('slow');
+    $('#secfire').delay(1000).fadeOut('slow');
+    $('#rocket2').fadeOut('slow');
+  }
+  if (newfire === 3) {
+    $('#thirdfire').fadeIn('slow');
+    $('#thirdfire').delay(1000).fadeOut('slow');
+    $('#rocket3').fadeOut('slow');
+  }
+  if (newfire === 4) {
+    $('#fourfire').fadeIn('slow');
+    $('#fourfire').delay(2000).fadeOut('slow');
+    $('#rocket4').fadeOut('slow');
+  }
+  if (newfire === 5) {
+    $('#fivefire').fadeIn('slow');
+    $('#fivefire').delay(1000).fadeOut('slow');
+    $('#rocket5').fadeOut('slow');
+  }
+  if (newfire === 6) {
+    $('#sixfire').fadeIn('slow');
+    $('#sixfire').delay(2000).fadeOut('slow');
+    $('#rocket6').fadeOut('slow');
+  }
+  if (newfire === 7) {
+$('#sevenfire').fadeIn('slow');
+  $('#sevenfire').delay(50).fadeOut('slow');
+    $('#rocket7').fadeOut('slow');
+  }
+  if (newfire === 8) {
+newfire = 0;
+    $('#rocket1').fadeIn('slow');
+    $('#rocket2').fadeIn('slow');
+    $('#rocket3').fadeIn('slow');
+    $('#rocket4').fadeIn('slow');
+    $('#rocket5').fadeIn('slow');
+    $('#rocket6').fadeIn('slow');
+    $('#rocket7').fadeIn('slow');
+  }
+}
+            function Help() {
+            alert("Welcome to Fire-o-Works!");
+              alert("This short, simulation game is activated by the press of a button!");
+              alert("It's never-ending, so feel free to keep producing endless fireworks!");
+              alert("Have fun!");
+            }
+          </script>
+          
+<img id="rocket1" src="http://hydra-media.cursecdn.com/minecraft.gamepedia.com/b/b0/Firework_rocket.png?version=b1d7cd29f655275e75d9378d3703edc1"/>
+                    
+<img id="rocket2" src="http://hydra-media.cursecdn.com/minecraft.gamepedia.com/b/b0/Firework_rocket.png?version=b1d7cd29f655275e75d9378d3703edc1"/>
+          
+                   
+<img id="rocket3" src="http://hydra-media.cursecdn.com/minecraft.gamepedia.com/b/b0/Firework_rocket.png?version=b1d7cd29f655275e75d9378d3703edc1"/>
+                    
+<img id="rocket4" src="http://hydra-media.cursecdn.com/minecraft.gamepedia.com/b/b0/Firework_rocket.png?version=b1d7cd29f655275e75d9378d3703edc1"/>
+          <img id="rocket5" src="http://hydra-media.cursecdn.com/minecraft.gamepedia.com/b/b0/Firework_rocket.png?version=b1d7cd29f655275e75d9378d3703edc1"/>
+          <img id="rocket6" src="http://hydra-media.cursecdn.com/minecraft.gamepedia.com/b/b0/Firework_rocket.png?version=b1d7cd29f655275e75d9378d3703edc1"/>
+          <img id="rocket7" src="http://hydra-media.cursecdn.com/minecraft.gamepedia.com/b/b0/Firework_rocket.png?version=b1d7cd29f655275e75d9378d3703edc1"/>
+          
+          <img id="firstfire" src="http://www.gwinnett.k12.ga.us/McConnellMS/purcell/LAWebPage/Walters%20Web%20Folder/animated-fireworks2.gif"/>
+          
+  <img id="secfire" src="http://homepages.rootsweb.ancestry.com/~maggieoh/Foj/fw3.gif"/>
+         <img id="thirdfire" src="http://www.ghengisfireworks.com/images/animated-firework-gifs/stars-firework-effect.gif"/>
+          <img id="fourfire" src="http://fireworksanimated.com/AnimatedFireworks1.gif"/>
+          <img id="fivefire" src="http://th157.photobucket.com/albums/t49/lia92024/th_animated_fireworks.gif"/>
+          <img id="sixfire" src="http://www.thebest3d.com/pdpro/tutorials/funwithparticles/vid31-220gif.gif"/>
+          <img id="sevenfire" src="http://media.giphy.com/media/OCq3fZT30zynu/giphy.gif"/>
+
+          <INPUT TYPE="image" id="press" SRC="http://www.personalfitnessforlife.com/images/click_here_button-2.png" onclick="fireworks()">
+          <INPUT TYPE="image" id="help" SRC="http://www.veryicon.com/icon/png/Media/Buttons/Button%20Help.png" onclick="Help()"/>
+        </body>
+</html>
