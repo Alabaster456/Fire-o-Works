@@ -24,6 +24,6 @@ Happy coding!
  =======
 
 1. The game should have a **Start Menu**, with a button that *plays the game* as well as link *to your other ones*. Or, it could possibly **link to your website** that has these games on it. (Good one!)
-2. The game should have sound implemented, activating after each firework. (Mhm..)
+2. The game should have sound implemented, activating after each firework. (*almost finished*)
 3. It should be viewed better on mobile. 
 4. After a certain amount of times (of the user re-doing the fireworks), a button should appear to another level with different fireworks. (Like this idea)
