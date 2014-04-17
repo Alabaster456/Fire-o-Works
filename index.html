@@ -2,20 +2,19 @@
 <html>
   <head>
 <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
-<link rel='stylesheet' href='style.css'/>
-<script src='jquery.js'></script>
+
     <title>Fire-o-Works</title>
 
   </head>
 
         <body id="color">
- <div id="howto"> </div>
           <script>
-            var newfire = 0;
+                        var newfire = 0;
 function fireworks() {
 newfire++;
   if(newfire === 1) {
-    
+    var snd = new Audio("http://soundjax.com/reddo/38563%5EFirework.mp3");
+    snd.play();
   $('#firstfire').fadeIn('slow');
   $('#firstfire').delay(1000).fadeOut('slow');
     $('#rocket1').fadeOut('slow');
@@ -24,11 +23,15 @@ newfire++;
   $('#secfire').fadeIn('slow');
     $('#secfire').delay(1000).fadeOut('slow');
     $('#rocket2').fadeOut('slow');
+     var snd1 = new Audio("http://soundjax.com/reddo/43243%5Eexplosi1.mp3");
+    snd1.play();
   }
   if (newfire === 3) {
     $('#thirdfire').fadeIn('slow');
     $('#thirdfire').delay(1000).fadeOut('slow');
     $('#rocket3').fadeOut('slow');
+    var snd3 = new Audio("https://www.sounddogs.com/previews/2193/mp3/219447_SOUNDDOGS__fi.mp3");
+    snd3.play();
   }
   if (newfire === 4) {
     $('#fourfire').fadeIn('slow');
@@ -64,10 +67,13 @@ newfire = 0;
             function Help() {
             alert("Welcome to Fire-o-Works!");
               alert("This short, simulation game is activated by the press of a button!");
-              alert("It's never-ending, so feel free to keep producing endless fireworks!");
+              alert("When you run out of rockets, just press the button again to earn more!");
+                alert("It's never-ending, so feel free to keep producing endless fireworks!");
               alert("Have fun!");
             }
-          </script>
+            </script>
+ <div id="howto"> </div>
+ 
           
 <img id="rocket1" src="http://hydra-media.cursecdn.com/minecraft.gamepedia.com/b/b0/Firework_rocket.png?version=b1d7cd29f655275e75d9378d3703edc1"/>
                     
