@@ -2,9 +2,7 @@
 <html>
   <head>
 <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
-<link rel='stylesheet' href='style.css'/>
 
-<script src='jquery.js'></script>
     <title>Fire-o-Works</title>
 
   </head>
@@ -36,11 +34,15 @@ newfire++;
     snd3.play();
   }
   if (newfire === 4) {
+    var snd4 = new Audio("http://soundjax.com/reddo/13944%5Ekaboom.mp3");
+    snd4.play();
     $('#fourfire').fadeIn('slow');
     $('#fourfire').delay(2000).fadeOut('slow');
     $('#rocket4').fadeOut('slow');
   }
   if (newfire === 5) {
+    var snd5 = new Audio("    http://soundjax.com/reddo/30539%5Eexplosion.mp3");
+                         snd5.play();
     $('#fivefire').fadeIn('slow');
     $('#fivefire').delay(1000).fadeOut('slow');
     $('#rocket5').fadeOut('slow');
